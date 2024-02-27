@@ -1,113 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/pikachu.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="boostrap-bp-ac/css/bootstrap.min.css">
-    <title>El Mundo Pokemón de William y Juanjo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/pikachu.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>El Mundo Pokemón de William y Juanjo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu CSS personalizado -->
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div style="text-align: center;">
-            <h1><img srcset="img/titulo.png"></h1>
-        </div>
-    </header>
-    <div>
-        <div class="div-menu">
-            <nav style="text-align: center;">
-                <ul>
-                    <a class="a-nav a-nav-bor h2-tit-men" href="">Inicio</a>
-                    <a class="a-nav a-nav-bor h2-tit-men" href="">Tienda</a>
-                    <a class="a-nav a-nav-bor h2-tit-men" href="">Acerca de</a>
-                    <a class="a-nav a-nav-bor h2-tit-men" href="">Contacto</a>
-                </ul>
-            </nav>
-        </div>
 
-        <div id="div-back" style="text-align: center;" class="container">
-            <div class="div-pad row justify-content-between">
-                <!-- Primer contenedor -->
-                <div class="col-md-5 col-container mr-2 mx-auto">
-                    <div class="bg-primary text-white div ">
-                        <img src="img/logo.jpeg" class="img-fluid" alt="image">
-                    </div>
-                </div>
-                <!-- Segundo contenedor -->
-                <div class="col-md-5 col-container ml-2 mx-auto" >
-                    <div class="div-back-dis bg-secondary text-white">
-                        <p class="div-back-dis p-dis" style="color: black;">
-                            En "El Mundo Pokémon de William y Juan Jose", nos esforzamos por ofrecer una amplia gama de productos alusivos a Pokémon que capturan la esencia y la emoción de este universo único. Desde cartas coleccionables hasta llaveros, peluches, vasos y gorras, tenemos algo para cada fanático de Pokémon, ya sea joven o joven de corazón.
-                            
-                            <br><br>Nuestros productos son elementos coleccionables que fomentan habilidades estratégicas, promueven el pensamiento crítico y fortalecen las habilidades de toma de decisiones.
-                        </p>                      </div>
-                </div>
+  <div class="container">
+        <!-- 
+                    <header>
+            <h1>El Mundo Pokemón de William y Juan Jose</h1>
+            <div class="contenedor-imagen">
+                <img src="img/logo.jpeg" alt="Logo">
             </div>
-        </div>
-    </div>
+        </header>
+        -->
+        <header>
+            <div class="logo">
+              <img src="img/titulo.png" alt="Nombre del sitio">
+            </div>
+          </header>
 
-    <div class="container2">
-        <div class="row justify-content-center">
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Gorras</h2>
-            </div>            
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Cartas</h2>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Llaveros</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/gorra.jpeg" class="img-fluid" alt="image" >
-                </div>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/cartas8.jpeg" class="img-fluid"  alt="image">
-                </div>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/llaveros.jpeg" class="img-fluid" alt="image">
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Peluches</h2>
-            </div>            
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Mugs</h2>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <h2 class="h2-tit-pro"><br>Varios</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/peluches.jpeg" class="img-fluid" alt="image" >
-                </div>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/mugs.jpeg" class="img-fluid" alt="image">
-                </div>
-            </div>
-            <div class="col d-flex align-items-center justify-content-center">
-                <div class="square">
-                    <img src="img/varios.jpeg" class="img-fluid" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="js/main.js"></script>
-    <script src="boostrap-bp-ac/js/bootstrap.min.js"></script>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Body-->
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="/img/emprendedores.jpeg" class="card-img-top" alt="Emprendedores    ">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">                            
+                    En "El Mundo Pokémon de William y Juan Jose", nos esforzamos por ofrecer una amplia gama de productos alusivos a Pokémon que capturan la esencia y la emoción de este universo único. Desde cartas coleccionables hasta llaveros, peluches, vasos y gorras, tenemos algo para cada fanático de Pokémon, ya sea joven o joven de corazón.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Tipo de productos-->
+
+      <div class="container">
+        <h2 class="text-center mt-5">Tipos de Productos</h2>
+        <div class="row mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/gorra.jpeg" class="card-img-top" alt="Gorras">
+              <div class="card-body text-center">
+                <h5 class="card-title">Gorras</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/cartas.jpeg" class="card-img-top" alt="Cartas">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cartas</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/llaveros.jpeg" class="card-img-top" alt="Llaveros">
+              <div class="card-body text-center">
+                <h5 class="card-title">Llaveros</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/peluches.jpeg" class="card-img-top" alt="Peluches">
+              <div class="card-body text-center">
+                <h5 class="card-title">Peluches</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/mugs.jpeg" class="card-img-top" alt="Mugs">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mugs</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/varios.jpeg" class="card-img-top" alt="Varios">
+              <div class="card-body text-center">
+                <h5 class="card-title">Varios</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer>
+      <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JavaScript y dependencias Popper.js y jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
