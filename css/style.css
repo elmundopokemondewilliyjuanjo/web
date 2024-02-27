@@ -1,6 +1,6 @@
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .div-pad {
-        padding: 50px 20px; /* Reducir el padding en dispositivos pequeños */
+        padding: 3.125 25rem; /* Reducir el padding en dispositivos pequeños */
     }
     .h2-tit-men {
         font-size: large; /* Reducir el tamaño del texto en dispositivos pequeños */
@@ -19,25 +19,25 @@ h1{
     justify-content: center;
 }
 img{
-    width: 1000px;
-    height: 100px;
+    width: 62.5rem;
+    height: 6.25rem;
     align-content: center;
 }
 .div-menu{
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
 }
-.div-back{
+#div-back{
     background-image: url(/img/fondo2.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: auto;
-    height: auto;
+    height: 62.5rem;
 }
 
 .a-nav{
     background-color: white;
     color: rgb(43, 129, 109);
-    padding: 10px 100px;
+    padding: 0.625rem 6.25rem;
     font-size: larger;
     font-family:  Candara, sans-serif;
     font-weight: bold;
@@ -50,28 +50,32 @@ img{
 .div-ima{
     background-image: url(/img/logo.jpeg);
     width: 100%;
-    height: 485px;
+    height: 6.25rem;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .div-pad{
-    padding: 100px 100px;
+    padding: 6.25rem 6.25rem;
 }   
 
 .p-dis{
     text-align: justify;
     color: rgb(43, 129, 109);
     font-family:  Candara, sans-serif; 
-    padding: 15px 15px;
+    padding: 0.938rem 0.938rem;
 }
 
 .div-back-dis{
     background-color: white;
 }
-
+.col-container{
+    padding: 25rem;
+    margin-bottom: 25rem;
+    border: 1px solid #ccc;
+}
 .container2 {
-    margin-top: 50px;
-    padding: 20px 110px;
+    margin-top: 3.125;
+    padding: 1.25rem 6.875rem;
 }
 /*
 .square {
@@ -87,11 +91,11 @@ img{
 .square {
     background-color: #ccc;
     padding: 0; /* Quitamos el padding para que la imagen ocupe todo el espacio */
-    margin: 10px;
+    margin: 0.625rem;
     text-align: center;
-    border: 2px solid #999;
-    border-radius: 5px;
-    height: 200px;
+    border: 0.125rem solid #999;
+    border-radius: 0.313rem;
+    height: 12.5rem;
     width: 100%;
     overflow: hidden; /* Evita que el contenido se salga del cuadrado */
     position: relative; /* Añadimos posición relativa */
@@ -107,7 +111,7 @@ img{
 }
 
 .row {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .h2-tit-pro{
