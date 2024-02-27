@@ -26,7 +26,7 @@ img{
 .div-menu{
     padding: 10px 30px;
 }
-#div-back{
+.div-back{
     background-image: url(/img/fondo2.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
