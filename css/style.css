@@ -1,0 +1,113 @@
+
+hr{
+    color: black;
+    font-weight: bold;
+    size: 10;
+}
+.sec-tit{
+    justify-content: center;
+}
+h1{
+    justify-content: center;
+}
+img{
+    width: 1000px;
+    height: 100px;
+    align-content: center;
+}
+.div-menu{
+    padding: 10px 30px;
+}
+#div-back{
+    background-image: url(/img/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+}
+
+.a-nav{
+    background-color: white;
+    color: rgb(43, 129, 109);
+    padding: 10px 100px;
+    font-size: larger;
+    font-family:  Candara, sans-serif;
+    font-weight: bold;
+    text-decoration-line: none;
+    border-color: black;
+}
+.a-nav-bor:hover {
+    color: red; /* Cambia el color a rojo cuando se pasa el puntero */
+}
+.div-ima{
+    background-image: url(/img/logo.jpeg);
+    width: 100%;
+    height: 485px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.div-pad{
+    padding: 100px 100px;
+}   
+
+.p-dis{
+    text-align: justify;
+    color: rgb(43, 129, 109);
+    font-family:  Candara, sans-serif; 
+    padding: 15px 15px;
+}
+
+.div-back-dis{
+    background-color: white;
+}
+
+.container2 {
+    margin-top: 50px;
+    padding: 20px 110px;
+}
+/*
+.square {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #999;
+    border-radius: 5px;
+    height: 200px; 
+}
+*/
+.square {
+    background-color: #ccc;
+    padding: 0; /* Quitamos el padding para que la imagen ocupe todo el espacio */
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #999;
+    border-radius: 5px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden; /* Evita que el contenido se salga del cuadrado */
+    position: relative; /* Añadimos posición relativa */
+
+}
+.square img {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del cuadrado */
+    height: auto; /* Permite que la altura de la imagen se ajuste proporcionalmente */
+    position: absolute; /* Añadimos posición absoluta */
+    top: 50%; /* Desplazamos la imagen hacia abajo un 50% del cuadrado */
+    left: 50%; /* Desplazamos la imagen hacia la derecha un 50% del cuadrado */
+    transform: translate(-50%, -50%); /* Centramos la imagen */
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.h2-tit-pro{
+    color: rgb(43, 129, 109);
+    font-size: xx-large;
+}
+
+.h2-tit-men{
+    color: rgb(43, 129, 109);
+    font-size: x-large;
+}
