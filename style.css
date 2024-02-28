@@ -1,0 +1,105 @@
+/* styles.css */
+
+
+/* Estilos para el título */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuentes modernas */
+    font-size: 3rem; /* Tamaño grande del texto */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 30px; /* Margen inferior */
+  }
+  
+  /* Media query para tamaños de pantalla más pequeños */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Reducción del tamaño del texto para pantallas más pequeñas */
+    }
+  }
+
+  /* Estilos para la barra de navegación */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el contenido principal */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Media queries para estilos responsivos */
+  
+
+  
+  /* Estilos para dispositivos con un ancho de pantalla menor o igual a 576px */
+  @media (max-width: 576px) {
+    /* Reducción del tamaño del encabezado */
+    header h1 {
+      font-size: 20px;
+    }
+  }
+
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contenedor-imagen {
+    max-width: 100%; /* Establece el ancho máximo del contenedor al 100% del contenedor padre */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+}
+
+.contenedor-imagen img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    display: block; /* Elimina el espacio adicional que puede aparecer alrededor de la imagen */
+}
+.h2-tit-men{
+    color: rgb(43, 129, 109);
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #007bff; /* Cambia el color de fondo cuando pasas el mouse */
+    color: #fff; /* Cambia el color del texto cuando pasas el mouse */
+  }
+  .navbar-nav .nav-item {
+    border: 1px solid #ccc; /* Agrega un borde de 1px sólido con color gris */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    margin-right: 5px; /* Añade un pequeño margen derecho entre los elementos del menú */
+  }
+  .navbar-nav .nav-link {
+    color: #088d6c; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    font-weight: bold;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .p-jus{
+    text-align: justify;
+  }
